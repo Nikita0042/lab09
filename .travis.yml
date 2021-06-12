@@ -14,8 +14,6 @@ script:
     - cmake -H. -B_build
     - cmake --build _build
     - docker build -t logger .
-:wq
-
 
 addons:
   apt:
