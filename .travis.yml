@@ -7,10 +7,13 @@ jobs:
   include:
   - name: "all projects"
 
-
+services:
+- docker<ESC>
 script:
     - cmake -H. -B_build
     - cmake --build _build
+    - docker build -t logger .<ESC>
+:wq
 
 
 addons:
@@ -20,10 +23,3 @@ addons:
     packages:
       - cmake
       - cmake-data
-
-      /lang<CR>o
-services:
-- docker<ESC>
-script:
-- docker build -t logger .<ESC>
-:wq
