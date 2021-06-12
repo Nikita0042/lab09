@@ -20,3 +20,10 @@ addons:
     packages:
       - cmake
       - cmake-data
+
+      /lang<CR>o
+services:
+- docker<ESC>
+script:
+- docker build -t logger .<ESC>
+:wq
