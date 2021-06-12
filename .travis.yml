@@ -8,11 +8,12 @@ jobs:
   - name: "all projects"
 
 services:
-- docker<ESC>
+    - docker
+
 script:
     - cmake -H. -B_build
     - cmake --build _build
-    - docker build -t logger .<ESC>
+    - docker build -t logger .
 :wq
 
 
