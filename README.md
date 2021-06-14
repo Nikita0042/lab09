@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/Berendei-Jr/lab09.svg?branch=main)](https://travis-ci.com/Berendei-Jr/lab09)
 # Лабораторная работа №9
 
  1) Туториал в данной лабораторной помог не сильно, но официальная документация в github docs помогла сгенерировать ключ через gpg и подписать им теги. (Также потребовалось установить дополнительное ПО, такое как язык GO, github_release).
