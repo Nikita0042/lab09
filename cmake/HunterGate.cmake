@@ -272,7 +272,7 @@ function(hunter_gate_download dir)
       "    \"\"\n"
       "    BUILD_COMMAND\n"
       "    \"\"\n"
-      "    INSTALL_COMMAND\n" .
+      "    INSTALL_COMMAND\n"
       "    \"\"\n"
       ")\n"
   )
